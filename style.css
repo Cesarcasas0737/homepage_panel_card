@@ -10,6 +10,10 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(media/yosemite_background.jpg);
     background-position: center;
     background-size: cover;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 .navbar{
     height: 12%;
@@ -19,4 +23,21 @@
 .logo{
     width: 50px;
     cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
 }
